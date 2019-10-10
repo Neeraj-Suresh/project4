@@ -1,0 +1,140 @@
+.brd-page{
+	padding: 0;
+}
+.breadcrumb { 
+  list-style: none; 
+  overflow: hidden; 
+  font: 15px Helvetica, Arial, Sans-Serif;
+  margin: 0px;
+  padding: 0;
+  background: black;
+}
+.breadcrumb li { 
+  float: left; 
+}
+.breadcrumb li a {
+  color: white;
+  text-decoration: none; 
+  padding: 10px 0 10px 55px;
+  background: black; 
+  background: black; 
+  position: relative; 
+  display: block;
+  float: left;
+}
+.breadcrumb li a:after { 
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 50px solid transparent;           
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid black;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; 
+  left: 100%;
+  z-index: 2; 
+}	
+.breadcrumb li a:before { 
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 50px solid transparent;         
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; 
+  margin-left: 1px;
+  left: 100%;
+  z-index: 1; 
+}	
+.breadcrumb li:first-child a {
+  padding-left: 10px;
+}
+.breadcrumb li:nth-child(2) a       { background:        black; }
+.breadcrumb li:nth-child(2) a:after { border-left-color: black; }
+.breadcrumb li:nth-child(3) a       { background:        black; }
+.breadcrumb li:nth-child(3) a:after { border-left-color: black; }
+.breadcrumb li:nth-child(4) a       { background:        black; }
+.breadcrumb li:nth-child(4) a:after { border-left-color: black; }
+
+.text-page a{
+	color: white !important;
+}
+.col-md-3{
+	padding-left: 0px;
+	padding-top: 30px;
+	border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+	margin-top: 12%;
+}
+hr{
+  border: 1px solid gray;
+}
+.login-page{
+	background-color: #E8E8E8;
+	padding-top: 40px;
+}
+.b1-page{
+	border: 2px solid black;
+	cursor: pointer;
+	font-weight: bold;
+  	text-decoration: none;
+  	border-radius: 50px;
+	width: 20%;
+}
+.b2-page{
+	border: 2px solid black;
+	cursor: pointer;
+	font-weight: bold;
+  	text-decoration: none;
+  	float: right;
+  	border-radius: 50px;
+	width: 20%;
+}
+.p-page{
+	color: gray;
+}
+.fname-page{
+	padding-left: 0px;
+}
+.lname-page{
+	padding-right: 0px;
+}
+.pswd-page{
+	padding-left: 0px;
+}
+.cpswd-page{
+	padding-right: 0px;
+}
+.lang-page{
+	padding-left: 0px;
+}
+.rol-page{
+	padding-right: 0px;
+}
+.p1-page{
+	color: gray;
+}
+.p2-page{
+	color: gray;
+}
+.inner-addon {
+  position: relative;
+}
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.right-addon input { 
+	padding-right: 30px;
+}
+.right-addon .glyphicon { 
+	right: 0px;
+}

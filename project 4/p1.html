@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="s1.css">
+  <link href="icon.css" rel="stylesheet"> 
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> 
+  <header class="">
+    <div class="container brd-page">
+      <ul class="breadcrumb">
+      	<li><a href="#"><span class="icon-bars"></span></a></li>
+      	<li><a href="#">Dashboard</a></li>
+      	<li><a href="#">User</a></li>
+      	<li><a href="#">Add a new user</a></li>
+      </ul>
+    </div>       
+  </header>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="contact-info">
+          <h5><strong>Add a new user</strong></h5>
+          <hr>
+          <p><span class="glyphicon glyphicon-circle-arrow-left"></span> Back to user</p>
+        </div>
+      </div>
+      <div class="col-md-8 login-page">
+        <form>
+          <div class="form-group">
+            <label for="inputUsername">Username*</label>
+            <div class="inner-addon right-addon">
+              <i class="glyphicon glyphicon-user"></i>
+              <input type="text" class="form-control" id="inputUsername" placeholder="acme-company" style="font-weight: bold;" required="">
+            </div>
+            <p class="p-page">Allowed characters:lowercase a-z,0-9 and dashes</p>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6 fname-page">
+              <label for="inputFirstname">First name</label>
+              <input type="Firstname" class="form-control" id="inputFirstname" placeholder="Acme" style="font-weight: bold;" required="">
+            </div>
+            <div class="form-group col-md-6 lname-page">
+              <label for="inputLastname">Last name</label>
+              <input type="Lastname" class="form-control" id="inputLastname" placeholder="Company" style="font-weight: bold;" required="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail4">Email*</label>
+            <div class="inner-addon right-addon">
+              <i class="glyphicon glyphicon-envelope"></i>
+               <input type="email" class="form-control" id="inputEmail4" placeholder="acme@example.com" style="font-weight: bold;" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6 pswd-page">
+              <label for="inputPassword4">Password</label>
+              <div class="inner-addon right-addon">
+                <i class="glyphicon glyphicon-eye-open"></i>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="******" style="font-weight: bold;" required="">
+              </div>
+            </div>
+            <div class="form-group col-md-6 cpswd-page">
+              <label for="inputPassword4">Confirm Password*</label>
+              <div class="inner-addon right-addon">
+                <i class="glyphicon glyphicon-eye-open"></i>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="******" style="font-weight: bold;" required="">
+              </div>
+            </div>
+          </div>
+          <p class="p1-page">a2qereqwrt1234f<span class="  glyphicon glyphicon-refresh"></span></p>
+          <div class="form-row">
+            <div class="form-group col-md-6 lang-page">
+              <label for="inputLanguage">Language*</label>
+              <select id="inputState" class="form-control" style="font-weight: bold;">
+                <option selected>English</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6 rol-page">
+              <label for="inputRole">Role*</label>
+              <select id="inputState" class="form-control" style="font-weight: bold;">
+                <option selected>Client</option>
+                <option>...</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-default b1-page">Cancel</button>
+          <button type="submit" class="btn btn-default b2-page">Save</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
